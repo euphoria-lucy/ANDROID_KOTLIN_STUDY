@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ViewPropertiesTest</string>
+    <string name="btn_1">NCT DREAM</string>
+    <string name="btn_2">SSG LANDERS</string>
+    <string name="btn_3">KEPCO VIXTORM</string>
+    <string name="btn_4">PARK SUNG-HAN</string>
+    <string name="btn_5">LIM SUNG-JIN</string>
+    <string name="txt1">이건 텍스트뷰입니다</string>
+    <string name="color_button"></string>
+    <string name="btn__2">PARK SUNGHAN</string>
+</resources>
