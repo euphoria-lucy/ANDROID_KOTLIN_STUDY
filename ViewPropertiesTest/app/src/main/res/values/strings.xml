@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">ViewPropertiesTest</string>
     <string name="btn_1">NCT DREAM</string>
     <string name="btn_2">SSG LANDERS</string>
@@ -13,4 +14,12 @@
     <string name="text_3">textStyle 속성</string>
     <string name="text_4">typeface 속성</string>
     <string name="text_5">single 속성 single 속성 single 속성 single 속성 single 속성</string>
+=======
+    <string name="app_name">CodeLayout</string>
+    <string name="greeting">박지성, 박성한, 임성진</string>
+    <string name="btn1_text">한국전력 빅스톰</string>
+    <string name="btn2_text">SSG LANDERS</string>
+    <string name="btn3_text">NCT DREAM</string>
+    <string name="btn4_text">KGC 인삼공사 배구단</string>
+>>>>>>> a3b44898be32ede7bf82ee5f892c1000a337ba53
 </resources>
