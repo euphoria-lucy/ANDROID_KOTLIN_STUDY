@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ButtonTest</string>
+    <string name="btn1">말랑콩떡 김정민</string>
+    <string name="btn2">아기짐승 김정민</string>
+</resources>
