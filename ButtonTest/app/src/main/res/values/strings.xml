@@ -1,10 +1,5 @@
 <resources>
     <string name="app_name">ButtonTest</string>
     <string name="btn1">NCT DREAM</string>
-    <string name="btn2">NCT DREAM 1등</string>
     <string name="txt1">KEPCO VIXTORM</string>
-    <string name="txt2">SSG LADNERS</string>
-    <string name="edit_hint">KEPCO VIXTORM 우승</string>
-    <string name="radio_female">최정민</string>
-    <string name="radio_male">임성진</string>
 </resources>

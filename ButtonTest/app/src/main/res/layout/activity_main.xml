@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_1"
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity">
@@ -12,40 +11,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:background="@color/btn_serenity"
         android:text="@string/txt1"
         android:layout_marginBottom="@dimen/margin_bottom"
         android:textSize="@dimen/text_large"
         />
 
-    <Button
-        android:id="@+id/btn1"
+0    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/text_medium"
         android:text="@string/btn1"
-        android:backgroundTint="@color/btn_rosequartz"
     />
-
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/radio_female"
-            android:textSize="@dimen/text_medium"
-            android:layout_marginTop="@dimen/margin_top"
-            />
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/radio_male"
-            android:textSize="@dimen/text_medium"
-            android:layout_marginTop="@dimen/margin_top"
-            />
-    </RadioGroup>
 
 </LinearLayout>
