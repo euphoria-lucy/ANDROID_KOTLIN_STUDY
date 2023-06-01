@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Base1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="전화번호"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/Base2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Base1"
+        android:hint="000-0000-0000"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입력"
+        android:layout_below="@id/Base2"
+        android:layout_alignParentRight="true"/>
+
+</LinearLayout>
