@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.ex5_2)
+        setContentView(R.layout.dir5_5)
         edit_o = findViewById(R.id.edit_o)
         edit_t = findViewById(R.id.edit_t)
         btnPlus = findViewById(R.id.btnPlus)
