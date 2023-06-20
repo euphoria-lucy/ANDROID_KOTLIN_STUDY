@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30sp"
+    tools:context=".MainActivity">
+
+    <Chronometer
+        android:id="@+id/chrono_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:format="예약에 걸린 시간 : %s"
+        android:layout_marginBottom="15dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        />
+
+</LinearLayout>
