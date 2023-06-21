@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_one"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/btn_marginBottom"
+        android:text="@string/btn1_text"/>
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_two"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/btn_marginBottom"
+        android:text="@string/btn2_text"/>
+    <Button
+        android:id="@+id/btn_thr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_thr"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/btn_marginBottom"
+        android:text="@string/btn3_text"/>
+    <Button
+        android:id="@+id/btn_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_four"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/btn_marginBottom"
+        android:text="@string/btn4_text"/>
+
+</LinearLayout>
