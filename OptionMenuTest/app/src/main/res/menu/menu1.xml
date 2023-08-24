@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/itemRed"
-        android:title="배경색(Red)" />
+        android:title="배경색(Pink)" />
 
     <item
         android:id="@+id/itemBlue"
-        android:title="배경색(Blue)" />
+        android:title="배경색(SkyBlue)" />
 
     <item
         android:id="@+id/itemMagenta"
-        android:title="배경색(Magenta)" />
+        android:title="배경색(Purple)" />
 
     <item
         android:title="버튼변경" >
@@ -24,6 +24,10 @@
             <item
                 android:id="@+id/subSize"
                 android:title="버튼 2배 확대" />
+
+            <item
+                android:id="@+id/subInit"
+                android:title="원래대로" />
 
         </menu>
 
