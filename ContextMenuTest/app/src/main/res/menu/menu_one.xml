@@ -2,7 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/itemRed"
-        android:title=""
+        android:id="@+id/itemPink"
+        android:title="배경색(Pink)" />
+
+    <item
+        android:id="@+id/itemSkyBlue"
+        android:title="배경색(SkyBlue)" />
+
+    <item
+        android:id="@+id/itemPurple"
+        android:title="배경색(Purple)" />
 
 </menu>
