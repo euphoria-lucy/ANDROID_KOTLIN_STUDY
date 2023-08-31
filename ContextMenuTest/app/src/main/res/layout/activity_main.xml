@@ -24,4 +24,11 @@
         android:layout_marginBottom="30dp"
         android:text="버튼 변경" />
 
+    <Button
+        android:id="@+id/btn_thr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="대화상자" />
+
 </LinearLayout>
