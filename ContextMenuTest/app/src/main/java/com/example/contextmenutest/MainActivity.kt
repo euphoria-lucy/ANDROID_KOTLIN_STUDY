@@ -8,6 +8,7 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,6 +24,11 @@ class MainActivity : AppCompatActivity() {
         linear = findViewById(R.id.linear)
         btn_one = findViewById(R.id.btn_one)
         btn_two = findViewById(R.id.btn_two)
+
+        btn_one.setOnClickListener {
+            var toast = Toast.makeText(applicationContext, "컨텍스트 메뉴는 길게 눌러야 나타납니다", Toast.LENGTH_LONG)
+            toast.show()
+        }
 
         registerForContextMenu(btn_one)
         registerForContextMenu(btn_two)
