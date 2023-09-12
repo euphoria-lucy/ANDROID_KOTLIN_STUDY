@@ -10,10 +10,39 @@
         android:id="@+id/btnMain"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="25dp"
         android:text="새 화면 열기"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/rg" />
+
+    <RadioGroup
+
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rb_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FirstActivity" />
+
+        <RadioButton
+            android:id="@+id/rb_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="SecondActivity" />
+
+        <RadioButton
+            android:id="@+id/rb_thr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ThirdActivity" />
+
+    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
