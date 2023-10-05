@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:stretchColumns="0"
+    tools:context=".ResultActivity">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_one"
+            android:layout_gravity="center_vertical"
+            android:text="picture_one"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbar_one"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_two"
+            android:layout_gravity="center_vertical"
+            android:text="picture_two"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbar_two"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_thr"
+            android:layout_gravity="center_vertical"
+            android:text="picture_thr"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbar_thr"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_four"
+            android:layout_gravity="center_vertical"
+            android:text="picture_four"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbar_four"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_five"
+            android:layout_gravity="center_vertical"
+            android:text="picture_five"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbar_five"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_six"
+            android:layout_gravity="center_vertical"
+            android:text="picture_six"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbar_six"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_seven"
+            android:layout_gravity="center_vertical"
+            android:text="picture_seven"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbar_seven"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_eight"
+            android:layout_gravity="center_vertical"
+            android:text="picture_eight"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbar_eight"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nine"
+            android:layout_gravity="center_vertical"
+            android:text="picture_nine"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbar_nine"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_gravity="right" />
+
+    </TableRow>
+
+    <TableRow>
+
+       <Button
+           android:id="@+id/btnReturn"
+           android:layout_span="2"
+           android:text="돌아가기" />
+
+    </TableRow>
+
+</TableLayout>
